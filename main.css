@@ -1,0 +1,86 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+
+    background: url(images/background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#main{
+	width: 60%;
+	background-color: 	#556B2F;	
+	height: 1400px;
+	position: relative;
+	top: 20px;
+	border-radius: 5%;
+}
+
+h1{
+	position: relative;
+	text-align: center;
+	color: white;
+	top: 15px;
+}
+
+ 
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 14vw;
+    min-height: 20vh;
+    
+   
+    text-align: center;
+    background-color: rgba(253, 246, 246, 0.6);
+    border-radius: 5%;
+}
+
+#menu{
+	
+	position: relative;
+	width: 60%;
+	padding: 20px;
+
+}
+header{
+	background-color:rgba(0, 0, 0, 0.5);
+	border-radius: 15%;
+	
+	height: 33%;
+	position: relative;
+	margin: 30px;
+
+}
+
+img{
+	height: 70px;
+}
+#snimkaprofil{
+	width: 20%;
+	position: relative;
+	float: left;
+	height: 300px;
+	display: block;
+}
+#personalinf{
+	width: 50%;
+	position: relative;
+	float: right;
+	top: 2%;
+	height: 300px;
+	display: block;
+}
+#inf{
+	position: absolute; 
+	top: 800px;
+}
+p{
+	font-family: Adobe Myungjo Std M;
+	font-size: 30px;
+}
